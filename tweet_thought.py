@@ -4,10 +4,10 @@ import random
 import twitter
 from dotenv import load_dotenv
 
-# # Load up the env vars
-# load_dotenv()
+# Load up the env vars
+load_dotenv()
 
-# # Generate a twitter client
+# Generate a twitter client
 api = twitter.Api(
     consumer_key=os.getenv("CONSUMER_KEY"),
     consumer_secret=os.getenv("CONSUMER_SECRET"),
